@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Praćenje Napretka do Brna</title>
+    <title>Putovanje do Brna</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
@@ -21,7 +21,7 @@
 </head>
 <body>
 
-<h1>Praćenje Napretka do Brna</h1>
+<h1>Putovanje do Brna</h1>
 <div id="map"></div>
 
 <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
@@ -60,7 +60,7 @@
         { lat: 49.1951, lng: 16.6068, name: 'Brno', icon: finishIcon }  // Finish
     ];
 
-    var weekDistances = [100, 120, 140, 140];  // Kilometri za svaki tjedan
+    var weekDistances = [118, 75, 200, 107];  // Kilometri za svaki tjedan
     var map = L.map('map').setView([startPoints[0].lat, startPoints[0].lng], 7);
 
     // Učitavanje OpenStreetMap pločica
