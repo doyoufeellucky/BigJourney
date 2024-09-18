@@ -109,7 +109,7 @@
 
         // Dodaj novi marker napretka
         progressMarker = L.marker([currentLat, currentLng], { icon: progressIcon }).addTo(map)
-            .bindPopup('Trenutna lokacija: ' + totalKm + ' km pređeno').openPopup();
+            .bindPopup('Trenutna lokacija: ' + totalKm + ' km').openPopup();
     }
 
     // Fetching data from Google Sheets via Google Apps Script
